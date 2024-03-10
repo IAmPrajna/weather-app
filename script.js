@@ -60,7 +60,6 @@ function fetchWeatherData() {
       conditionOutput.innerHTML = data.current.condition.text;
       const date = data.location.localtime;
       console.log(date);
-      // 2024-02-28
       const y = parseInt(date.substring(0, 4));
       const m = parseInt(date.substring(5, 7));
       const d = parseInt(date.substring(8, 10));
