@@ -127,7 +127,7 @@ function fetchWeatherData() {
           btn.style.background = "#325c80";
         }
       } else {
-        app.style.backgroundImage = `url(https://www.exploreclarion.com/wp-content/uploads/2017/03/snowy-street-554957_1280.jpg)`;
+        app.style.backgroundImage = `url(./images/snow.jpg)`;
         btn.style.background = "#4d72aa";
         if (timeofDay == "night") {
           btn.style.background = "#1b1b1b";
