@@ -121,7 +121,7 @@ function fetchWeatherData() {
         code == 1249 ||
         code == 1252
       ) {
-        app.style.backgroundImage = `url(https://yesofcorsa.com/wp-content/uploads/2017/11/Rainy-Weather-Wallpaper-High-Definition-1024x640.jpg)`;
+        app.style.backgroundImage = `url(./images/rain.jpeg)`;
         btn.style.background = "#647d75";
         if (timeofDay == "night") {
           btn.style.background = "#325c80";
