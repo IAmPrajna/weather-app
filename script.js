@@ -121,13 +121,13 @@ function fetchWeatherData() {
         code == 1249 ||
         code == 1252
       ) {
-        app.style.backgroundImage = `url(http://yesofcorsa.com/wp-content/uploads/2017/11/Rainy-Weather-Wallpaper-High-Definition-1024x640.jpg)`;
+        app.style.backgroundImage = `url(https://yesofcorsa.com/wp-content/uploads/2017/11/Rainy-Weather-Wallpaper-High-Definition-1024x640.jpg)`;
         btn.style.background = "#647d75";
         if (timeofDay == "night") {
           btn.style.background = "#325c80";
         }
       } else {
-        app.style.backgroundImage = `url(http://www.exploreclarion.com/wp-content/uploads/2017/03/snowy-street-554957_1280.jpg)`;
+        app.style.backgroundImage = `url(https://www.exploreclarion.com/wp-content/uploads/2017/03/snowy-street-554957_1280.jpg)`;
         btn.style.background = "#4d72aa";
         if (timeofDay == "night") {
           btn.style.background = "#1b1b1b";
